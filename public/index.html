@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hipl - Style help when you need it</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- CSS
+        ================================================== -->
+    <!-- Bootstrap 3-->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Template Styles -->
+    <link href="stylesheets/style.css" rel="stylesheet" media="screen">
+      </head>
+  <body>
+
+	  <!-- NAVBAR
+	      ================================================== -->
+	  <nav class="navbar navbar-default" role="navigation">
+	  	  <div class="container">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+
+			    <!--Replace text with your app name or logo image-->
+			    <a class="navbar-brand" href="#">HIPL</a>
+
+			  </div>
+			  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			    <ul class="nav navbar-nav">
+			      <li><a onclick="$('header').animatescroll({padding:71});">Main</a></li>
+			      <li><a onclick="$('.payoff').animatescroll({padding:71});">Why</a></li>
+			      <li><a onclick="$('.features').animatescroll({padding:71});">How it works</a></li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">Social	</a></li>
+			    </ul>
+			  </div>
+		  </div>
+	  </nav>
+
+
+	   <!-- HEADER
+	   ================================================== -->
+	  <header>
+		 <div class="container">
+			 <div class="row">
+				 <div class="col-md-12">
+          <br>
+          <h1>Hipl</h1>
+          <p class="lead">Personal stylist is for everyone.</p>
+
+            <div class="row">
+              <div class="col-lg-6 col-lg-offset-3">
+
+                <form id="email-form">
+                  <div class="input-group input-group-lg">
+
+                      <input id="email" type="email" name="email" class="form-control" placeholder="Your email">
+                      <span class="input-group-btn">
+                        <input class="btn btn-success" type="submit" value="Get nofified"></input>
+                      </span>
+
+                  </div><!-- /input-group -->
+                </form>
+
+                <div id="fb_pixel"></div>
+
+                <div id="confirm" class="hide">
+                  <span class="icon-check"></span>We will notify you when we go live.
+                  <br><br><br><br><br>
+                  <a class="icon-facebook" target="_blank" href="https://www.facebook.com/pages/Hipl/713675905397861"></a>
+                </div>
+
+              </div><!-- /.col-lg-6 -->
+            </div>
+
+				</div>
+			</div>
+		</div>
+	 </header>
+
+<!-- PURCHASE
+        ================================================== -->
+    <section class="purchase">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+           <h1>Let a stylist help you dress better.</h1>
+           	    <p class="lead">Get notified when we launch, with a 30% discount voucher.</p>
+           	    <button type="button" onclick="$('header').animatescroll({padding:71});" class="btn btn-success btn-lg">Be an Early Bird</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+	  <!-- PAYOFF
+	      ================================================== -->
+	  <section class="payoff">
+		<div class="container">
+			  <div class="row">
+				  <div class="col-md-12">
+					  <h1>We make personal stylist affordable for everyone. It's not a luxury, but a must-have.</h1>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+
+	  <!-- FEATURES
+	      ================================================== -->
+	  <section class="features">
+		  <div class="container">
+			  <div class="row">
+
+				  <div class="col-md-4">
+					  <div class="circle"><i class="icon-user"></i></div>
+					  <h2>1 - Set up your profile</h2>
+					  <p>Specify your style, sizes with just few simple clicks.</p>
+				  </div>
+
+				  <div class="col-md-4">
+					  <div class="circle"><i class="icon-bagshop"></i></div>
+					  <h2>2 - Get matched</h2>
+					  <p>Our algorithm will match you with a stylist on our system. Let her get clothings you need.</p>
+				  </div>
+
+				  <div class="col-md-4">
+					  <div class="circle"><i class="icon-star"></i></div>
+					  <h2>3 - Look good</h2>
+					  <p>Don't go shopping or over-think your style. Let our stylists take care of you.</p>
+				  </div>
+
+			  </div>
+		  </div>
+	  </section>
+
+
+    <section class="purchase">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <h1>How much does it cost?</h1>
+            <p class="lead">We have three-tier system for stylists, and you can choose your stylist from any tiers.<br>
+            Top tier stylists cost generally $80 per package, and low tier stylists cost $30 per package.</p>
+
+            <h1>Who are the stylists?</h1>
+            <p class="lead">They are diverse. Some are fashion industry professionals, fashion enthusiasts, or just someone who has a knack for styling. You will be able to view their profile, and portfolios.</p>
+
+            <h1>How does it work?</h1>
+            <p class="lead">Let your stylist know about your current needs, and they will assemble a package and send it to you. Return items freely and choose what you keep.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!--
+
+    DETAILS
+    ==================================================
+    <section class="detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <h1>Are you a tutor?</h1>
+
+            <div id="carousel-example-generic-2" class="carousel slide">
+
+              Wrapper for slides
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-offset-1 col-md-6">
+                      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                      <div class="app-screenshot">
+                        <img src="img/screenshots/app-1.png" class="img-responsive" alt="App Screen 1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-offset-1 col-md-6">
+                      <h1>Sed do eiusmod tempor incididunt ut labore et dolore magna.</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                      <div class="app-screenshot">
+                        <img src="img/screenshots/app-2.png" class="img-responsive" alt="App Screen 2">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-offset-1 col-md-6">
+                      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                      <div class="app-screenshot">
+                        <img src="img/screenshots/app-3.png" class="img-responsive" alt="App Screen 3">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              Indicators
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+
+
+
+	 <!-- SOCIAL
+	     ================================================== -->
+	  <section class="social">
+	  	<div class="container">
+	  		  <div class="row">
+	  			  <div class="col-md-12">
+	  			  	<h2>Stay connected</h2>
+	  			   	<a class="icon-facebook" target="_blank" href="https://www.facebook.com/pages/Hipl/713675905397861"></a>
+	  			   </div>
+	  		  </div>
+	  	  </div>
+	  </section>
+
+
+	 <!-- GET IT
+	     ================================================== -->
+	  <section class="get-it">
+	  	<div class="container">
+	  		<div class="row">
+	  			<div class="col-md-12">
+	  				<h1>Coming soon in Sydney</h1>
+	  				<p class="lead">Get notified when we launch, with a 30% discount voucher.</p>
+            <button class="btn btn-success btn-lg" onclick="$('header').animatescroll({padding:71});">Be an early bird</button>
+	  			</div>
+	  			<div class="col-md-12">
+	  				<hr />
+            <p>&copy; 2015 Hipl</p>
+            <p class="blur">Everyone should have a personal stylist.</p>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </section>
+
+
+	 <!-- JAVASCRIPT
+	     ================================================== -->
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/animatescroll.js"></script>
+    <script src="javascripts/scripts.js"></script>
+    <script src="javascripts/retina-1.1.0.min.js"></script>
+    <script src="javascripts/submit.js"></script>
+
+</html>
